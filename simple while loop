@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class EvenOddCheck {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int var = sc.nextInt();
+
+        if (var == 0) {
+            System.out.println(var + " is neither even nor odd");
+        } else if (var % 2 == 0) {
+            System.out.println(var + " is an even number");
+        } else {
+            System.out.println(var + " is an odd number");
+        }
+    }
+}
